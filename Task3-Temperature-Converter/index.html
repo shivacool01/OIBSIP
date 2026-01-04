@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>temperature convertor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div id="container">
+      <nav class="nav">
+        <h2 class="heading">
+          <span id="p1">TEMP</span><span id="p2">convertor</span>
+        </h2>
+      </nav>
+
+      <div class="holder">
+        <div class="once">
+          <input type="number" id="temp" />
+          <select id="tempType">
+            <option value="cToF">Celsius</option>
+            <option value="fToC">Fahrenheit</option>
+            <option value="kToC">Kelvin</option>
+          </select>
+        </div>
+        <div class="result">
+        <span class="ans">
+          <p></p>
+          </span>
+          <select id="tempType2">
+            <option value="cToF">Celsius</option>
+            <option value="fToC">Fahrenheit </option>
+            <option value="kToC">Kelvin </option>
+          </select>
+        </div>
+      </div>
+
+      <button id="btn">convert</button>
+
+      <span class="formula">formula :- <p> </p></span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
