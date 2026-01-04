@@ -27,7 +27,7 @@ The task was to build a **Temperature Converter** using **HTML, CSS, and JavaScr
 ---
 
 ## 🚀 Live Demo
-(Add your deployed GitHub Pages link here once deployment is confirmed)
+https://shivacool01.github.io/OIBSIP/Task3-Temperature-Converter/
 
 ---
 
